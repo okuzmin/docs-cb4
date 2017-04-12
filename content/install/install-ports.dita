@@ -322,8 +322,9 @@
 	<p><b>Ports to Change</b></p>
 	<p>The following are the user-defined ports to add, replace, or append to the
 		<filepath>/opt/couchbase/etc/couchbase/static_config</filepath> file. </p>
-	<codeblock>{rest_port, 9000}.                                   
-{mccouch_port, 8999}.                         
+	<codeblock>{rest_port, 9000}.
+{query_port, 9093}.
+{mccouch_port, 8999}.
 {memcached_port, 12000}.
 {moxi_port, 12001}.
 {short_name, "ns_1"}.
@@ -341,6 +342,7 @@
 	<p><b>How to Map User-Defined Ports to the Default Ports</b></p>
 	<p>This chart shows how certain user-defined ports are mapped to the default ports: <codeblock>{rest_port, 9000}                    8091 	 Web administration port                                   
 {mccouch_port, 8999}                 11213 	Default value for mccouch                         
+{query_port, 9093}                   8093       Default value for query service
 {memcached_port, 12000}              11211 	Client interface (proxy)
 {moxi_port, 12001}                   11210 	Internal/external bucket port
 {ssl_rest_port,11000}                18091 	Internal REST HTTPS for SSL                                      
