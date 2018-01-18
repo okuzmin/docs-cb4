@@ -7,8 +7,7 @@
     <p>Full Administrators and Cluster Administrators can configure cluster settings.</p>
     <p>Use the <uicontrol>Settings > Cluster</uicontrol> tab to configure the cluster name, memory
       quotas, and index settings. You can define the settings using the Web Console, with the CLI
-      command, or using the REST API.</p><p><image href="../admin/picts/settings-cluster.png" id="image_dcr_5zz_zs" align="left"
-        width="720"/></p>
+      command, or using the REST API.</p><p>OLD SCREENSHOT, NEEDS TO BE UPDATED TO THE CURRENT PRODUCTION VERSION</p>
     <p>To configure cluster settings using the Web Console: </p>
     <ol id="ol_uk4_cjw_zy">
       <li>Select the <uicontrol>Couchbase Web Console</uicontrol> > <uicontrol>Settings</uicontrol>
